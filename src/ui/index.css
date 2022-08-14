@@ -1,0 +1,62 @@
+#animal-selector {
+  display: grid;
+  grid-template-columns: 150px 150px;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#heading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  margin: 20px;
+}
+
+#galery {
+  display: grid;
+  grid-template-columns: repeat(4, 400px);
+  justify-content: center;
+  text-align: center;
+}
+
+.animal-desc {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  column-gap: 10px;
+  row-gap: 10px;
+  text-align: start;
+}
+
+.animal-info {
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.animal-pic {
+  max-width: 350px;
+  min-width: 350px;
+  max-height: 350px;
+  min-height: 350px;
+  margin-bottom: 30px;
+}
+
+.animal-button {
+  cursor: pointer;
+  border: 2px gray;
+  background-color: black;
+  color: white;
+  margin: 20px;
+  padding: 10px;
+  width: 80px;
+  height: 20px;
+  border-radius: 10px;
+}
+
+.button-clicked {
+  background-color: green;
+}
+
+.votes-container {
+    margin: 10px;
+}
