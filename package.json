@@ -1,0 +1,17 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "Demo for rest api",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node ./src/server.js"
+  },
+  "author": "Asimeet Padhee",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "jest": "^28.1.3"
+  }
+}
